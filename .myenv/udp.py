@@ -21,5 +21,6 @@ while True:
     # для третьего канала 0b00001110 - ADSB-112; 0b00001010 - ADSB-56; 0b00000110 - A/C
     # для четвертого канала 0b00001111 - ADSB-112; 0b00001011 - ADSB-56; 0b00000111 - A/C
     if (data[6] ^ 0b00001100)==0b00000000:
-        print('first channel')
-    
+        print('first channel - ADSB-112')
+    if (data[6] ^ 0b00001000)==0b00000000:
+        print('first channel - ADSB-56')
