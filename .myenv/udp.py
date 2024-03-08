@@ -13,6 +13,8 @@ while True:
     airData = hex(data[0])
     if airData=='0x81':
         print(airData)
+
+    print('number of receiver  '+data[1:2])
     typeMessage = bin(data[6]) # 7 байт тип сообщения -> первые шесть бит: тип АДСБ, два последних: номер канала
     print(typeMessage)
 
@@ -24,3 +26,5 @@ while True:
         print('first channel - ADSB-112')
     if (data[6] ^ 0b00001000)==0b00000000:
         print('first channel - ADSB-56')
+    if (data[6] ^ 0b00000100)==0b00000000:
+        print('first channel - A/C')
