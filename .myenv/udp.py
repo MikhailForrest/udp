@@ -54,3 +54,4 @@ while True:
     if (data[6] ^ 0b00001100)==0b00000000:
         adsb_112_Data = data[17:31]
         print(hex(adsb_112_Data))
+        print('ICAOaddress   '+hex(adsb_112_Data[1:4]))
