@@ -14,7 +14,10 @@ while True:
     if airData=='0x81':
         print(airData)
 
-    print('number of receiver  '+data[1:2])
+    print('number of receiver  '+data[2:4])
+    numOfPack = int(data[4:6])
+    print (numOfPack +'vs' + hex(data[4:6]))
+
     typeMessage = bin(data[6]) # 7 байт тип сообщения -> первые шесть бит: тип АДСБ, два последних: номер канала
     print(typeMessage)
 
