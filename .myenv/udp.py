@@ -1,5 +1,6 @@
 import socket
 import math
+import myFunc
 
 UDP_IP = "10.1.1.16"
 UDP_PORT = 49002
@@ -28,30 +29,31 @@ while True:
         # для второго канала 0b00001101 - ADSB-112; 0b00001001 - ADSB-56; 0b00000101 - A/C
         # для третьего канала 0b00001110 - ADSB-112; 0b00001010 - ADSB-56; 0b00000110 - A/C
         # для четвертого канала 0b00001111 - ADSB-112; 0b00001011 - ADSB-56; 0b00000111 - A/C
-        if (data[6] ^ 0b00001100)==0b00000000:
-            print('first channel - ADSB-112')
-        elif (data[6] ^ 0b00001000)==0b00000000:
-            print('first channel - ADSB-56')
-        elif (data[6] ^ 0b00000100)==0b00000000:
-            print('first channel - A/C')
-        elif (data[6] ^ 0b00001101)==0b00000000:
-            print('Second channel - ADSB-112')
-        elif (data[6] ^ 0b00001001)==0b00000000:
-            print('Second channel - ADSB-56')
-        elif (data[6] ^ 0b00000101)==0b00000000:
-            print('Second channel - A/C')
-        elif (data[6] ^ 0b00001110)==0b00000000:
-            print('Third channel - ADSB-112')
-        elif (data[6] ^ 0b00001010)==0b00000000:
-            print('Third channel - ADSB-56')
-        elif (data[6] ^ 0b00000110)==0b00000000:
-            print('Third channel - A/C')   
-        elif (data[6] ^ 0b00001111)==0b00000000:
-            print('Forth channel - ADSB-112')
-        elif (data[6] ^ 0b00001011)==0b00000000:
-            print('Forth channel - ADSB-56')
-        elif (data[6] ^ 0b00000111)==0b00000000:
-            print('Forth channel - A/C')
+        # if (data[6] ^ 0b00001100)==0b00000000:
+        #     print('first channel - ADSB-112')
+        # elif (data[6] ^ 0b00001000)==0b00000000:
+        #     print('first channel - ADSB-56')
+        # elif (data[6] ^ 0b00000100)==0b00000000:
+        #     print('first channel - A/C')
+        # elif (data[6] ^ 0b00001101)==0b00000000:
+        #     print('Second channel - ADSB-112')
+        # elif (data[6] ^ 0b00001001)==0b00000000:
+        #     print('Second channel - ADSB-56')
+        # elif (data[6] ^ 0b00000101)==0b00000000:
+        #     print('Second channel - A/C')
+        # elif (data[6] ^ 0b00001110)==0b00000000:
+        #     print('Third channel - ADSB-112')
+        # elif (data[6] ^ 0b00001010)==0b00000000:
+        #     print('Third channel - ADSB-56')
+        # elif (data[6] ^ 0b00000110)==0b00000000:
+        #     print('Third channel - A/C')   
+        # elif (data[6] ^ 0b00001111)==0b00000000:
+        #     print('Forth channel - ADSB-112')
+        # elif (data[6] ^ 0b00001011)==0b00000000:
+        #     print('Forth channel - ADSB-56')
+        # elif (data[6] ^ 0b00000111)==0b00000000:
+        #     print('Forth channel - A/C')
+        print(myFunc.byteToTypeAndNumberOfChannel(data[6]))
 
         if (data[6] ^ 0b00001100)==0b00000000:
             adsb_112_Data = data[17:31]
