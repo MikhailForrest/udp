@@ -14,7 +14,7 @@ while True:
     if airData=='0x81':
         print(airData)
 
-    print('number of receiver  '+data[2:4].hex())
+    print('number of receiver  '+str(int(data[2:4].hex(),16)))
     numOfPack = str(data[4:6])
     print (numOfPack +'vs' + data[4:6].hex()) # проверка: можно ли два байта брать такой записью
 
