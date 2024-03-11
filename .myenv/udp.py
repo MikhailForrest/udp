@@ -14,9 +14,9 @@ while True:
     if airData=='0x81':
         print(airData)
 
-    print('number of receiver  '+data[2:4])
-    numOfPack = int(data[4:6])
-    print (numOfPack +'vs' + hex(data[4:6])) # проверка: можно ли два байта брать такой записью
+    print('number of receiver  '+data[2:4].hex())
+    numOfPack = str(data[4:6])
+    print (numOfPack +'vs' + data[4:6].hex()) # проверка: можно ли два байта брать такой записью
 
     typeMessage = bin(data[6]) # 7 байт тип сообщения -> первые шесть бит: тип АДСБ, два последних: номер канала
     print(typeMessage)
@@ -53,5 +53,5 @@ while True:
 
     if (data[6] ^ 0b00001100)==0b00000000:
         adsb_112_Data = data[17:31]
-        print(hex(adsb_112_Data))
-        print('ICAOaddress   '+hex(adsb_112_Data[1:4]))
+        print(adsb_112_Data.hex())
+        print('ICAOaddress   '+adsb_112_Data[1:4].hex())
