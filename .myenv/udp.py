@@ -1,6 +1,7 @@
 import socket
 import math
 import myFunc
+from crc import Calculator, Crc32
 
 UDP_IP = "10.1.1.16"
 UDP_PORT = 49002
@@ -16,7 +17,7 @@ while True:
         print('=======================================================')
         line_str = ''
         line_str += 'number of receiver  '+str(int(data[2:4].hex(),16))+'; '
-        line_str += 'level  '+str(40-int(data[15:16].hex(),16))+'; '
+        line_str += 'level  '+str(40-int(data[15:16].hex(),16))+'; ' 
         line_str += 'SNR  '+str(2+20*math.log10(int(data[16:17].hex(),16)))+'; '
         
         print (line_str) # проверка: можно ли два байта брать такой записью
@@ -54,6 +55,9 @@ while True:
         # elif (data[6] ^ 0b00000111)==0b00000000:
         #     print('Forth channel - A/C')
         print(myFunc.byteToTypeAndNumberOfChannel(data[6]))
+        calc = Calculator(Crc32.CRC32,optimized=True)
+        assert data[-2:]==calc.checksum(data[:-2])
+
 
         if (data[6] ^ 0b00001100)==0b00000000:
             adsb_112_Data = data[17:31]
