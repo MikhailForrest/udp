@@ -1,6 +1,6 @@
 import socket
 import math
-import myFunc
+from . import myFunc
 from crc import Calculator, Crc32
 
 UDP_IP = "10.1.1.16"
