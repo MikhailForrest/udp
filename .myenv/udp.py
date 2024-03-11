@@ -1,4 +1,5 @@
 import socket
+import math
 
 UDP_IP = "10.1.1.16"
 UDP_PORT = 49002
@@ -11,10 +12,13 @@ while True:
     #print(data.hex())
     airData = hex(data[0])
     if airData=='0x81':
+        print('=======================================================')
         line_str = ''
         line_str += 'number of receiver  '+str(int(data[2:4].hex(),16))+'; '
-        lev = line_str + 'level  '+str(int(data[13:14].hex(),16))
-        print (lev) # проверка: можно ли два байта брать такой записью
+        line_str += 'level  '+str(40-int(data[15:16].hex(),16))+'; '
+        line_str += 'SNR  '+str(2+20*math.log10(int(data[16:17].hex(),16)))+'; '
+        
+        print (line_str) # проверка: можно ли два байта брать такой записью
 
         #typeMessage = bin(data[6]) # 7 байт тип сообщения -> первые шесть бит: тип АДСБ, два последних: номер канала
         #print(typeMessage)
@@ -53,4 +57,3 @@ while True:
             adsb_112_Data = data[17:31]
             print(adsb_112_Data.hex())
             print('ICAOaddress   '+adsb_112_Data[1:4].hex())
-            print('=======================================================')
