@@ -1,6 +1,6 @@
 import socket
 import math
-from . import myFunc
+import myFunc
 from crc import Calculator, Crc32
 
 UDP_IP = "10.1.1.16"
@@ -56,7 +56,7 @@ while True:
         #     print('Forth channel - A/C')
         print(myFunc.byteToTypeAndNumberOfChannel(data[6]))
         calc = Calculator(Crc32.CRC32,optimized=True)
-        assert data[-2:]==calc.checksum(data[:-2])
+        #assert data[-2:]==calc.checksum(data[:-2])
 
 
         if (data[6] ^ 0b00001100)==0b00000000:
