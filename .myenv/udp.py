@@ -36,6 +36,7 @@ while True:
                 print(adsb_112_Data.hex())
                 ME_in_bytes = adsb_112_Data[4:11]
                 #print(ME_in_bytes.hex())
+                print ('tc=  '+str(int(hex((ME_in_bytes[0]>>3)),16)))
                 if ((ME_in_bytes[2] | 0b11111011) ^ 0b11111111) == 0b00000000: #смотрим 6-ой бит в третьем байте MESSAGE
                     print ("CPR odd (1)")
                 else:

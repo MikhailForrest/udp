@@ -1,7 +1,11 @@
 
 number of receiver  65535; level  -82; SNR  21.084850188786497; NumOfMess  17483; CountOfMess  1; 
 first channel - ADSB-112
-8d151dd223046331df6e20fa27fe
+8d151dd2 23046331df6e20 fa27fe   ME = 23046331df6e20
+0010 0011 0000 0100 0110 0011 0011 0001 1101 1111 0110 1110 0010 0000
+                           11 0011 0001 1101 111                        - LAN-CPR 104687
+						                        1 0110 1110 0010 0000   - LON-CPR 93728
+
 CPR even (0)
 ICAOaddress   151dd2
 =======================================================
@@ -13,7 +17,11 @@ first channel - ADSB-56
 =======================================================
 number of receiver  65535; level  -80; SNR  18.901960800285135; NumOfMess  17486; CountOfMess  2; 
 first channel - ADSB-112
-8d151dd299099e0dd804ab98d5e0
+8d151dd2 99099e0dd804ab 98d5e0   ME = 99099e0dd804ab
+1001 1001 0000 1001 1001 1110 0000 1101 1101 1000 0000 0100 1010 1011
+                           10 0000 1101 1101 100                        - LAN-CPR 67308
+						                        0 0000 0100 1010 1011   - LON-CPR 1195
+
 CPR odd (1)
 ICAOaddress   151dd2
 
