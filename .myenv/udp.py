@@ -22,15 +22,14 @@ while True:
         line_str += 'SNR  '+str(2+20*math.log10(int(data[16:17].hex(),16)))+'; '
         line_str += 'NumOfPack  '+str(int(data[4:6].hex(),16))+'; '
         line_str += 'CountOfMess  '+str(int(hex(data[1]),16))+'; '
-
-        print (line_str) # проверка: можно ли два байта брать такой записью
+        print (line_str)
 
         print(myFunc.byteToTypeAndNumberOfChannel(data[6]))
         calc = Calculator(Crc16.CCITT)
         chckSm = calc.checksum(data[0:len(data)-2])
         #print((chckSm))
 
-        if (data[6] ^ 0b00001100)==0b00000000:
+        if (data[6] ^ 0b00001100)==0b00000000: # здесь уже заложено номер 1 канала
             adsb_112_Data = data[17:31]         
             if ((adsb_112_Data[0]>>2) ^ 0b100011)==0b00000: # проверка df17 - первые шесть бит первого байта
                 print(adsb_112_Data.hex())
