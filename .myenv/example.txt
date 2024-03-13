@@ -1,0 +1,20 @@
+
+number of receiver  65535; level  -82; SNR  21.084850188786497; NumOfMess  17483; CountOfMess  1; 
+first channel - ADSB-112
+8d151dd223046331df6e20fa27fe
+CPR even (0)
+ICAOaddress   151dd2
+=======================================================
+number of receiver  65535; level  -83; SNR  14.041199826559248; NumOfMess  17484; CountOfMess  1; 
+first channel - ADSB-56
+=======================================================
+number of receiver  65535; level  -84; SNR  14.041199826559248; NumOfMess  17485; CountOfMess  1; 
+first channel - ADSB-56
+=======================================================
+number of receiver  65535; level  -80; SNR  18.901960800285135; NumOfMess  17486; CountOfMess  2; 
+first channel - ADSB-112
+8d151dd299099e0dd804ab98d5e0
+CPR odd (1)
+ICAOaddress   151dd2
+
+приблизительно около точки 57,25922 46,078885
