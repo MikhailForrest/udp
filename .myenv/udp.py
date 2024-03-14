@@ -2,6 +2,7 @@ import socket
 import math
 import myFunc
 from crc import Calculator, Crc16
+from time import strftime, gmtime
 
 UDP_IP = "10.1.1.16"
 UDP_PORT = 49002
@@ -31,9 +32,11 @@ while True:
             print(info_of_ch)
             if ((data[init_mess]>>2) ^ 0b000001) == 0b000000: #A/C сообщение
                 init_mess+=11 #11 - длина A/C сообщения
+                time_in_nanosec = int(data[(init_mess+1):(init_mess+7)].hex(),16)
                 line_str = ''
-                line_str += 'level  '+str(40-int(data[13:14].hex(),16))+'; ' 
-                line_str += 'SNR  '+str(2+20*math.log10(int(data[14:15].hex(),16)))+';'
+                line_str+=strftime("%H:%M:%S",gmtime(time_in_nanosec/1000000000))
+                line_str += 'level  '+str(40-int(data[(init_mess+7):(init_mess+8)].hex(),16))+'; ' 
+                line_str += 'SNR  '+str(2+20*math.log10(int(data[(init_mess+8):(init_mess+9)].hex(),16)))+';'
                 
             elif ((data[init_mess]>>2) ^ 0b000010) == 0b000000:
                 init_mess+=18 #18 - длина ADSB-56 сообщения
