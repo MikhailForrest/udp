@@ -29,8 +29,12 @@ while True:
         for i_mess in range(0,count_of_mess):
             info_of_ch = myFunc.byteToTypeAndNumberOfChannel(data[init_mess])
             print(info_of_ch)
-            if ((data[init_mess]>>2) ^ 0b000001) == 0b000000:
+            if ((data[init_mess]>>2) ^ 0b000001) == 0b000000: #A/C сообщение
                 init_mess+=11 #11 - длина A/C сообщения
+                line_str = ''
+                line_str += 'level  '+str(40-int(data[13:14].hex(),16))+'; ' 
+                line_str += 'SNR  '+str(2+20*math.log10(int(data[14:15].hex(),16)))+';'
+                
             elif ((data[init_mess]>>2) ^ 0b000010) == 0b000000:
                 init_mess+=18 #18 - длина ADSB-56 сообщения
             elif ((data[init_mess]>>2) ^ 0b000011) == 0b000000:
