@@ -3,24 +3,25 @@ first channel - ADSB-112
 8d151d4f 58b971a36c12a6 9eae12
 58b971a36c12a6
 0101 1000 1011 1001 0111 0001 1010 0011 0110 1100 0001 0010 1010 0110
+LAN CPR 01101000110110110 - 53686
+LON CPR 00001001010100110 - 4774
 
-
-tc=  11
+tc=  11 T = 0
 CPR even (0)
 ICAOaddress   151d4f
-
-
+=======================================================
 number of receiver  65535; level  -73; SNR  26.082399653118497; NumOfPack  7563; CountOfMess  1; 
 first channel - ADSB-112
 8d151d4f 58b975028bd3b8 b7177f
 58b975028bd3b8
 0101 1000 1011 1001 0111 0101 0000 0010 1000 1011 1101 0011 1011 1000
+LAN CPR 01000000101000101
+LON CPR 11101001110111000
 
-
-tc=  11
+tc=  11 T = 0
 CPR odd (1)
 ICAOaddress   151d4f
-
+=======================================================
 
 number of receiver  65535; level  -72; SNR  27.575072019056577; NumOfPack  7565; CountOfMess  1; 
 first channel - ADSB-112
