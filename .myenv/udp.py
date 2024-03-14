@@ -45,5 +45,5 @@ while True:
             else:
                 print((adsb_112_Data[0]>>2))
         
-        if numOf112 >10:
+        if numOf112 >100:
             break
