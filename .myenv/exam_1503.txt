@@ -1,0 +1,1020 @@
+1:31:48;  level  -86; SNR  11.542425094393248;
+not df17
+8101ffff327c0c0502a2ca8637fff57e04a800169020554052e75320963c83f31c
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12924;
+first channel - ADSB-112
+01:31:48;  level  -86; SNR  14.041199826559248;
+not df17
+8101ffff327d0805034cb38b7a00f47f045d780ae58e7a5ef61c
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12925;
+first channel - ADSB-56
+01:31:51;  level  -87; SNR  14.041199826559248;
+8101ffff327e080503f5bb71a900037f052000171832048ef85c
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12926;
+first channel - ADSB-56
+01:31:54;  level  -87; SNR  15.979400086720377;
+8101ffff327f080504a39b79c000357e052000171832048ef87c
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12927;
+first channel - ADSB-56
+01:31:57;  level  -86; SNR  15.979400086720377;
+8101ffff32800c0504ca5423a900477f058d780ae558b9819ae456e2cab60ff239
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12928;
+first channel - ADSB-112
+01:31:58;  level  -87; SNR  15.979400086720377;
+8d780ae558b9819ae456e2cab60f
+tc=  11
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff3281080504e6ff021900007d085d780ae58e7a5ef70d
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12929;
+first channel - ADSB-56
+01:31:58;  level  -85; SNR  20.06179973983887;
+8102ffff32820c0504ed48574100307c06ad780ae5f82300060049ba99d71d080504ee4d492a00067c075d780ae58e7a5eef00
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12930;
+first channel - ADSB-112
+01:31:58;  level  -84; SNR  17.563025007672874;
+not df17
+first channel - ADSB-56
+01:31:58;  level  -84; SNR  18.901960800285135;
+8101ffff32830c050508a7333effef7e058d780ae558b9819ad256b27d1408f291
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12931;
+first channel - ADSB-112
+01:31:59;  level  -86; SNR  15.979400086720377;
+8d780ae558b9819ad256b27d1408
+tc=  11
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32840805050fa225aaffc37c035d780ae58e7a5ef5cd
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12932;
+first channel - ADSB-56
+01:31:59;  level  -84; SNR  11.542425094393248;
+8101ffff3285080505113ae951003e7c055d780ae58e7a5ef749
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12933;
+first channel - ADSB-56
+01:31:59;  level  -84; SNR  15.979400086720377;
+8101ffff32860c0505130c2083002c7c088d780ae5ea466858013c08177c56f62e
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12934;
+first channel - ADSB-112
+01:31:59;  level  -84; SNR  20.06179973983887;
+8d780ae5ea466858013c08177c56
+tc=  29
+CPR even (0)
+ICAOaddress   780ae5
+8104ffff32870c050538d3032bffde7d06a0001718d80a31347ffc001827af0c050538e742beffec7c05a0001718c6500030a400007877c30c0505398a1e69003e7d05a0001718c6500030a400007857c30c0505399e5dc3ffd07d05a0001718fffb8f3a4004edc00e5cdad4
+=======================================================
+CountOfMess  4; number of receiver  65535; NumOfPack  12935;
+first channel - ADSB-112
+01:31:59;  level  -85; SNR  17.563025007672874;
+not df17
+first channel - ADSB-112
+01:31:59;  level  -84; SNR  15.979400086720377;
+not df17
+first channel - ADSB-112
+01:31:59;  level  -85; SNR  15.979400086720377;
+not df17
+first channel - ADSB-112
+01:31:59;  level  -85; SNR  15.979400086720377;
+not df17
+8104ffff32880c05053a928260fff37e05a0001718c6500030a400007877c30c05053b355e39001b7d04a0001718c4500030a400007877c30c05053bec794dffd97e03a0001718fffb8f3a4004edc00e5c0c05053c00b8e000497d07a0001718d80a31347ffc001827bfdc6e
+=======================================================
+CountOfMess  4; number of receiver  65535; NumOfPack  12936;
+first channel - ADSB-112
+01:32:00;  level  -86; SNR  15.979400086720377;
+not df17
+first channel - ADSB-112
+01:32:00;  level  -85; SNR  14.041199826559248;
+not df17
+first channel - ADSB-112
+01:32:00;  level  -86; SNR  11.542425094393248;
+not df17
+first channel - ADSB-112
+01:32:00;  level  -85; SNR  18.901960800285135;
+not df17
+8101ffff32890c05057c89a862ff6a7d058d780ae558b984fa4015ac4fa922f217
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12937;
+first channel - ADSB-112
+01:32:01;  level  -85; SNR  15.979400086720377;
+8d780ae558b984fa4015ac4fa922
+tc=  11
+CPR odd (1)
+ICAOaddress   780ae5
+8101ffff328a0805059cfb2381000c7d095d780ae58e7a5ef6bb
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12938;
+first channel - ADSB-56
+01:32:01;  level  -85; SNR  21.084850188786497;
+8101ffff328b0805059ece1868ffa47f045d780ae58e7a5ef575
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12939;
+first channel - ADSB-56
+01:32:01;  level  -87; SNR  14.041199826559248;
+8101ffff328c08050628d0e76700057d045d780ae58e7a5ef6b9
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12940;
+first channel - ADSB-56
+01:32:04;  level  -85; SNR  14.041199826559248;
+8101ffff328d080506390e45a600097e035d780ae58e7a5ef7c8
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12941;
+first channel - ADSB-56
+01:32:04;  level  -86; SNR  11.542425094393248;
+8101ffff328e08050647457a44005b7e062000171832048ef971
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12942;
+first channel - ADSB-56
+01:32:04;  level  -86; SNR  17.563025007672874;
+8101ffff328f0c0506a4fd94de00247e0480e197195cb984f9f414cb4c81e0f0cc
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12943;
+first channel - ADSB-112
+01:32:06;  level  -86; SNR  14.041199826559248;
+not df17
+8101ffff3290080507446ed51affed7e055d780ae58e7a5ef570
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12944;
+first channel - ADSB-56
+01:32:08;  level  -86; SNR  15.979400086720377;
+8101ffff32910c0507478993b5ffde7d028d780ae5990dcb8a50048cdee4a5f0fb
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12945;
+first channel - ADSB-112
+01:32:08;  level  -85; SNR  8.020599913279625;
+8d780ae5990dcb8a50048cdee4a5
+tc=  19
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32920805074fc1734400147c0a5d151d5626ee52f7fc
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12946;
+first channel - ADSB-56
+01:32:08;  level  -84; SNR  22.0;
+8101ffff3293080507515f9a1b00197c065d151d5626ee52f85c
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12947;
+first channel - ADSB-56
+01:32:08;  level  -84; SNR  17.563025007672874;
+8102ffff3294080507609eedcc000a7b085d780ae58e7a5e0805076216d893003a7b095d151d5626ee52f137
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12948;
+first channel - ADSB-56
+01:32:09;  level  -83; SNR  20.06179973983887;
+first channel - ADSB-56
+01:32:09;  level  -83; SNR  21.084850188786497;
+8101ffff32950805076271443cfffe7b085d780ae58e7a5ef5a8
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12949;
+first channel - ADSB-56
+01:32:09;  level  -83; SNR  20.06179973983887;
+8101ffff32960805076cbe23f6001a7c075d151d5626ee52f779
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12950;
+first channel - ADSB-56
+01:32:09;  level  -84; SNR  18.901960800285135;
+8103ffff32970c050772c90afa00217d04a000169095e9f3ae600401b4f2950c050772e4cc9000127d08a0001690c4600030aa00005bf0d30c0507739be81ffff07c07a0001690ffd351382004d2e1e9a9de4b
+=======================================================
+CountOfMess  3; number of receiver  65535; NumOfPack  12951;
+first channel - ADSB-112
+01:32:09;  level  -85; SNR  14.041199826559248;
+not df17
+first channel - ADSB-112
+01:32:09;  level  -85; SNR  20.06179973983887;
+not df17
+first channel - ADSB-112
+01:32:09;  level  -84; SNR  18.901960800285135;
+not df17
+8103ffff32980c050774744b15ff6a7e04a080169095e9f32e600401b4f2950c0507752b668dffcc7e06a0001690c4600030aa00005bf0c30c05077547281f001b7d07a0001690ffd351382004d2e1e9a9e054
+=======================================================
+CountOfMess  3; number of receiver  65535; NumOfPack  12952;
+first channel - ADSB-112
+01:32:09;  level  -86; SNR  14.041199826559248;
+not df17
+first channel - ADSB-112
+01:32:09;  level  -86; SNR  17.563025007672874;
+not df17
+first channel - ADSB-112
+01:32:09;  level  -85; SNR  18.901960800285135;
+not df17
+8101ffff32990c050775fe435f003d7d07a000169095e9b32e700401b4f295f372
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12953;
+first channel - ADSB-112
+01:32:09;  level  -85; SNR  18.901960800285135;
+not df17
+8102ffff329a0c05079b9602a1004c7d03ad151d5690b50589b7f62e1368970805079bab71f6fffe7b042000171832048eedb6
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12954;
+first channel - ADSB-112
+01:32:10;  level  -85; SNR  11.542425094393248;
+not df17
+first channel - ADSB-56
+01:32:10;  level  -83; SNR  14.041199826559248;
+8102ffff329b0c0507a2842e1effce7c05a0001718d7fa2f34600c002bce450c0507a3274856fff87d03a0001718c6500030a400007877c3ebcb
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12955;
+first channel - ADSB-112
+01:32:10;  level  -84; SNR  15.979400086720377;
+not df17
+first channel - ADSB-112
+01:32:10;  level  -85; SNR  11.542425094393248;
+not df17
+8101ffff329c0c0507a4d287ecfff87d04a0001718c6500030a400007877c3f2ce
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12956;
+first channel - ADSB-112
+01:32:10;  level  -85; SNR  14.041199826559248;
+not df17
+8101ffff329d0c0507a691c8a500217e05a0001718a01b9f3a2004ed96acb1f3ea
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12957;
+first channel - ADSB-112
+01:32:10;  level  -86; SNR  15.979400086720377;
+not df17
+8101ffff329e0c0507c84ab9a0003a7e048d151d5620554072e753209086e6f3df
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12958;
+first channel - ADSB-112
+01:32:10;  level  -86; SNR  14.041199826559248;
+8d151d5620554072e753209086e6
+tc=  4
+CPR even (0)
+ICAOaddress   151d56
+8101ffff329f0c0507cb9b14de00227d078d780ae558b984f9a213f42ab857f235
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12959;
+first channel - ADSB-112
+01:32:11;  level  -85; SNR  18.901960800285135;
+8d780ae558b984f9a213f42ab857
+tc=  11
+CPR odd (1)
+ICAOaddress   780ae5
+8101ffff32a0080507d0a86ca300267d035d151d5626ee52f722
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12960;
+first channel - ADSB-56
+01:32:11;  level  -85; SNR  11.542425094393248;
+8101ffff32a1080507db2b89ebffd27e0420001690566811f637
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12961;
+first channel - ADSB-56
+01:32:11;  level  -86; SNR  14.041199826559248;
+8102ffff32a2080507e3980dd6fffc7c075d780ae58e7a5e080507e459b10800527d0420001690566810f020
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12962;
+first channel - ADSB-56
+01:32:11;  level  -84; SNR  18.901960800285135;
+first channel - ADSB-56
+01:32:11;  level  -85; SNR  14.041199826559248;
+8101ffff32a3080507e550aa9c002a7d0420001690566811f7dc
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12963;
+first channel - ADSB-56
+01:32:11;  level  -85; SNR  14.041199826559248;
+8101ffff32a4080507e7455f7f00297d0520001690566811f84c
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12964;
+first channel - ADSB-56
+01:32:11;  level  -85; SNR  15.979400086720377;
+8101ffff32a5080507ea6dcadd00447d0620001690566811f73b
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12965;
+first channel - ADSB-56
+01:32:11;  level  -85; SNR  17.563025007672874;
+8101ffff32a60c0507f03d9517fff67c0685151d5790b50589dbf66886b8adf13b
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12966;
+first channel - ADSB-112
+01:32:11;  level  -84; SNR  17.563025007672874;
+not df17
+8101ffff32a7080507f1e0ae9200307c045d780ae58e7a5ef5a8
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12967;
+first channel - ADSB-56
+01:32:11;  level  -84; SNR  14.041199826559248;
+8101ffff32a808050811547b47ff907d055d151d5626ee52f70e
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12968;
+first channel - ADSB-56
+01:32:12;  level  -85; SNR  15.979400086720377;
+8102ffff32a90c05082af011a400477d078d151d5690b50589f1f6914ceea30c05082af6a1f200117e058d151d569901b00f0804003915a6ebe6
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12969;
+first channel - ADSB-112
+01:32:12;  level  -85; SNR  18.901960800285135;
+8d151d5690b50589f1f6914ceea3
+tc=  18
+CPR odd (1)
+ICAOaddress   151d56
+first channel - ADSB-112
+01:32:12;  level  -86; SNR  15.979400086720377;
+8d151d569901b00f0804003915a6
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32aa080508671c70fd00077d055d780ae58e7a5ef6ec
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12970;
+first channel - ADSB-56
+01:32:13;  level  -85; SNR  15.979400086720377;
+8101ffff32ab08050868b7308c003a7d045d780ae58e7a5ef6ce
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12971;
+first channel - ADSB-56
+01:32:13;  level  -85; SNR  14.041199826559248;
+8101ffff32ac080508730aa49500127d065d780ae58e7a5ef718
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12972;
+first channel - ADSB-56
+01:32:13;  level  -85; SNR  17.563025007672874;
+8101ffff32ad08050876bd4d68004a7d085d151d5626ee52f78a
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12973;
+first channel - ADSB-56
+01:32:13;  level  -85; SNR  20.06179973983887;
+8101ffff32ae08050879245c4e00077c065d151d5626ee52f870
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12974;
+first channel - ADSB-56
+01:32:13;  level  -84; SNR  17.563025007672874;
+8101ffff32af0805087fc0e91400127d065d780ae58e7a5ef68f
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12975;
+first channel - ADSB-56
+01:32:14;  level  -85; SNR  17.563025007672874;
+8101ffff32b00805088a85c79100277c075d780ae58e7a5ef64e
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12976;
+first channel - ADSB-56
+01:32:14;  level  -84; SNR  18.901960800285135;
+8101ffff32b108050890222a9d00067e045d780ae58e7a5ef75d
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12977;
+first channel - ADSB-56
+01:32:14;  level  -86; SNR  14.041199826559248;
+8102ffff32b20c05089d617c5600247e038d151d5690b5022cfe38aa20de010c05089d680ca5ffef7e038d151d569901b10f0804003a1f68ed2c
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12978;
+first channel - ADSB-112
+01:32:14;  level  -86; SNR  11.542425094393248;
+8d151d5690b5022cfe38aa20de01
+tc=  18
+CPR even (0)
+ICAOaddress   151d56
+first channel - ADSB-112
+01:32:14;  level  -86; SNR  11.542425094393248;
+8d151d569901b10f0804003a1f68
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32b3080508c34057b200377e0320001690566801f83d
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12979;
+first channel - ADSB-56
+01:32:15;  level  -86; SNR  11.542425094393248;
+8102ffff32b40c0508e023bd3300027d068d151d5690b5022d1c38de3791380c0508e02a4cc600047d048d151d569901b10f0804003a1f68ef57
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12980;
+first channel - ADSB-112
+01:32:15;  level  -85; SNR  17.563025007672874;
+8d151d5690b5022d1c38de379138
+tc=  18
+CPR even (0)
+ICAOaddress   151d56
+first channel - ADSB-112
+01:32:15;  level  -85; SNR  14.041199826559248;
+8d151d569901b10f0804003a1f68
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32b5080508f09b7398000a7c075d780ae58e7a5ef637
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12981;
+first channel - ADSB-56
+01:32:15;  level  -84; SNR  18.901960800285135;
+8102ffff32b60c0509034e7eeb002b7e068d151d5690b5022d2c38f8ae4c9c0c050903550f7a00257e058d151d569901b10f0804003a1f68efba
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12982;
+first channel - ADSB-112
+01:32:16;  level  -86; SNR  17.563025007672874;
+8d151d5690b5022d2c38f8ae4c9c
+tc=  18
+CPR even (0)
+ICAOaddress   151d56
+first channel - ADSB-112
+01:32:16;  level  -86; SNR  15.979400086720377;
+8d151d569901b10f0804003a1f68
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32b70805090973e10efff67d035d151d5626ee52f656
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12983;
+first channel - ADSB-56
+01:32:16;  level  -85; SNR  11.542425094393248;
+8101ffff32b80805090b43285800527d065d151d5626ee52f892
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12984;
+first channel - ADSB-56
+01:32:16;  level  -85; SNR  17.563025007672874;
+8101ffff32b90805091de06014ffeb7e035d780ae58e7a5ef579
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12985;
+first channel - ADSB-56
+01:32:16;  level  -86; SNR  11.542425094393248;
+8101ffff32ba08050940b85119fff17d065d151d5626ee52f65e
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12986;
+first channel - ADSB-56
+01:32:17;  level  -85; SNR  17.563025007672874;
+8101ffff32bb0805094288f08600197f045d151d5626ee52f756
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12987;
+first channel - ADSB-56
+01:32:17;  level  -87; SNR  14.041199826559248;
+8101ffff32bc0c05099262d2c500147e038d151d569901b10f080800724568f5ba
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12988;
+first channel - ADSB-112
+01:32:18;  level  -86; SNR  11.542425094393248;
+8d151d569901b10f080800724568
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32bd080509bda40fde00b87e055d151d5626ee52f6a7
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12989;
+first channel - ADSB-56
+01:32:19;  level  -86; SNR  15.979400086720377;
+8101ffff32be080509d65f0fdbfffc7e045d780ae58e7a5ef4b4
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12990;
+first channel - ADSB-56
+01:32:19;  level  -86; SNR  14.041199826559248;
+8102ffff32bf0c0509dc56e02800107e03a000161f91e9f32e7ff6fd5378aa080509dc988832004b7e055d151d5626ee52ecf5
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12991;
+first channel - ADSB-112
+01:32:19;  level  -86; SNR  11.542425094393248;
+not df17
+first channel - ADSB-56
+01:32:19;  level  -86; SNR  15.979400086720377;
+8103ffff32c00c0509de1e1c27008c7e04a100162fc56200b2aa0000624f0e0c0509df705707ffda7e04a100163fffd353380004d3de43f80c0509df8c532cff5c7f05a000163f95e9f32e7ff7fd5378aae039
+=======================================================
+CountOfMess  3; number of receiver  65535; NumOfPack  12992;
+first channel - ADSB-112
+01:32:19;  level  -86; SNR  14.041199826559248;
+not df17
+first channel - ADSB-112
+01:32:19;  level  -86; SNR  14.041199826559248;
+not df17
+first channel - ADSB-112
+01:32:19;  level  -87; SNR  15.979400086720377;
+not df17
+8101ffff32c10c0509e137933c00337e04a000163f95e9f32e7ff7fd5378aaf25b
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12993;
+first channel - ADSB-112
+01:32:19;  level  -86; SNR  14.041199826559248;
+not df17
+8101ffff32c2080509f48cef40ffd17e032000163faf0f69f5da
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12994;
+first channel - ADSB-56
+01:32:20;  level  -86; SNR  11.542425094393248;
+8101ffff32c308050a048d6a9c00437d062000162faf0f29f8cb
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12995;
+first channel - ADSB-56
+01:32:20;  level  -85; SNR  17.563025007672874;
+8102ffff32c40c050a0dbc895c00007e0380001710c6500032a400007877c30c050a0e73a4c1ffb57e02a0001718d7fa0d34201600bc6fd9ecaa
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  12996;
+first channel - ADSB-112
+01:32:20;  level  -86; SNR  11.542425094393248;
+not df17
+first channel - ADSB-112
+01:32:20;  level  -86; SNR  8.020599913279625;
+not df17
+8101ffff32c50c050a91346f4f00347e04cd1519549901b10f0804003a1f6cf6bb
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12997;
+first channel - ADSB-112
+01:32:22;  level  -86; SNR  14.041199826559248;
+not df17
+8101ffff32c608050ab114577f000f7c042000171832048ef934
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12998;
+first channel - ADSB-56
+01:32:23;  level  -84; SNR  14.041199826559248;
+8101ffff32c708050ac2112a0300537f045d151d5626ee52f84f
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  12999;
+first channel - ADSB-56
+01:32:23;  level  -87; SNR  14.041199826559248;
+8101ffff32c80c050ac8151ca700007c078d780ae5f82300060049b899d71df4a5
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13000;
+first channel - ADSB-112
+01:32:23;  level  -84; SNR  18.901960800285135;
+8d780ae5f82300060049b899d71d
+tc=  31
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32c908050acbad5fb0ffe77c055d780ae58e7a5ef456
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13001;
+first channel - ADSB-56
+01:32:23;  level  -84; SNR  15.979400086720377;
+8101ffff32ca0c050ad146d7ea00367e04ad151d569901b10f0804003a1f68f57d
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13002;
+first channel - ADSB-112
+01:32:24;  level  -86; SNR  14.041199826559248;
+not df17
+8101ffff32cb08050ae56cfec0006d7c065d780ae58e7a5ef544
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13003;
+first channel - ADSB-56
+01:32:24;  level  -84; SNR  17.563025007672874;
+8101ffff32cc0c050af304509f00357b068d780ae5ea466858013c08177c56f4b9
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13004;
+first channel - ADSB-112
+01:32:24;  level  -83; SNR  17.563025007672874;
+8d780ae5ea466858013c08177c56
+tc=  29
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32cd08050af761e39d00117c0502e61718ace127f635
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13005;
+first channel - ADSB-56
+01:32:24;  level  -84; SNR  15.979400086720377;
+8101ffff32ce0c050b233c11d400287d058d151d569901b10f0804003a1f68f73a
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13006;
+first channel - ADSB-112
+01:32:25;  level  -85; SNR  15.979400086720377;
+8d151d569901b10f0804003a1f68
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32cf0c050b3ac6957e00057c068d780ae5990dcb8a78048cf53a84f31f
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13007;
+first channel - ADSB-112
+01:32:25;  level  -84; SNR  17.563025007672874;
+8d780ae5990dcb8a78048cf53a84
+tc=  19
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32d00c050b4d21044c00197c0680e1971858b984f8ac1150a7761bf427
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13008;
+first channel - ADSB-112
+01:32:26;  level  -84; SNR  17.563025007672874;
+not df17
+8101ffff32d108050b6dee606a000a7b085d780ae58e7a5ef689
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13009;
+first channel - ADSB-56
+01:32:26;  level  -83; SNR  20.06179973983887;
+8101ffff32d208050b6fca132cfffd7b085d780ae58e7a5ef543
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13010;
+first channel - ADSB-56
+01:32:26;  level  -83; SNR  20.06179973983887;
+8101ffff32d308050b71ab87f3000e7b085d780ae58e7a5ef612
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13011;
+first channel - ADSB-56
+01:32:26;  level  -83; SNR  20.06179973983887;
+8101ffff32d40c050b8146b351ffe07c0780e1971858b981990851b01d11d4f1eb
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13012;
+first channel - ADSB-112
+01:32:26;  level  -84; SNR  18.901960800285135;
+not df17
+8101ffff32d50c050b87f63e28fff37b098d780ae5ea466858013c08177c56f2f2
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13013;
+first channel - ADSB-112
+01:32:27;  level  -83; SNR  21.084850188786497;
+8d780ae5ea466858013c08177c56
+tc=  29
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32d60c050b8f0c7f4e00187b048d780ae558b984f89c11273cb0d9f343
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13014;
+first channel - ADSB-112
+01:32:27;  level  -83; SNR  14.041199826559248;
+8d780ae558b984f89c11273cb0d9
+tc=  11
+CPR odd (1)
+ICAOaddress   780ae5
+8101ffff32d708050b950f803300437a082000171832048ef930
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13015;
+first channel - ADSB-56
+01:32:27;  level  -82; SNR  20.06179973983887;
+8101ffff32d808050b9fec6f77ffe57c052000171832048ef675
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13016;
+first channel - ADSB-56
+01:32:27;  level  -84; SNR  15.979400086720377;
+8101ffff32d908050ba48fadceffec7b062000171832048ef630
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13017;
+first channel - ADSB-56
+01:32:27;  level  -83; SNR  17.563025007672874;
+8102ffff32da0c050badf0d67ffff67b068d780ae5990dcb8a78048cf53a8408050bae2bee4afff27b075d780ae58e7a5ee87f
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  13018;
+first channel - ADSB-112
+01:32:27;  level  -83; SNR  17.563025007672874;
+8d780ae5990dcb8a78048cf53a84
+tc=  19
+CPR even (0)
+ICAOaddress   780ae5
+first channel - ADSB-56
+01:32:27;  level  -83; SNR  18.901960800285135;
+8101ffff32db08050bafce58ecffdd7b065d780ae58e7a5ef413
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13019;
+first channel - ADSB-56
+01:32:27;  level  -83; SNR  17.563025007672874;
+8101ffff32dc08050bb37c4156ffed7a065d780ae58e7a5ef4fe
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13020;
+first channel - ADSB-56
+01:32:27;  level  -82; SNR  17.563025007672874;
+8101ffff32dd0c050bc510db18001f7b068d780ae558b984f88e10fff044dff1bc
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13021;
+first channel - ADSB-112
+01:32:28;  level  -83; SNR  17.563025007672874;
+8d780ae558b984f88e10fff044df
+tc=  11
+CPR odd (1)
+ICAOaddress   780ae5
+8101ffff32de08050bd5ac809affd17a095d780ae58e7a5ef440
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13022;
+first channel - ADSB-56
+01:32:28;  level  -82; SNR  21.084850188786497;
+8101ffff32df08050bd7484cccfffa7b035d780ae58e7a5ef47f
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13023;
+first channel - ADSB-56
+01:32:28;  level  -83; SNR  11.542425094393248;
+8102ffff32e008050bd8e2e453ffea7a065d780ae58e7a5e08050bda5376ab000e7b075d780ae58e7a5eedb1
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  13024;
+first channel - ADSB-56
+01:32:28;  level  -82; SNR  17.563025007672874;
+first channel - ADSB-56
+01:32:28;  level  -83; SNR  18.901960800285135;
+8101ffff32e10c050bdf3b59a8000c7a078d780ae5990dcb8a70048c9b988cf2fb
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13025;
+first channel - ADSB-112
+01:32:28;  level  -82; SNR  18.901960800285135;
+8d780ae5990dcb8a70048c9b988c
+tc=  19
+CPR even (0)
+ICAOaddress   780ae5
+8102ffff32e208050bfc16f6bdffd57a022b97e08c0018010c050bfc16b06dfff07a098d780ae5f82300060049b899d71dea97
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  13026;
+first channel - ADSB-56
+01:32:29;  level  -82; SNR  8.020599913279625;
+first channel - ADSB-112
+01:32:29;  level  -82; SNR  21.084850188786497;
+8d780ae5f82300060049b899d71d
+tc=  31
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32e30c050c024dba57001a7a098d780ae558b98198e85158e8d4faf1ec
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13027;
+first channel - ADSB-112
+01:32:29;  level  -82; SNR  21.084850188786497;
+8d780ae558b98198e85158e8d4fa
+tc=  11
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32e408050c081277c8ffee7a095d780ae58e7a5ef55e
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13028;
+first channel - ADSB-56
+01:32:29;  level  -82; SNR  21.084850188786497;
+8101ffff32e508050c09e3f8e7000e7a0b5d780ae58e7a5ef5c8
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13029;
+first channel - ADSB-56
+01:32:29;  level  -82; SNR  22.827853703164504;
+8101ffff32e608050c0bb99f77ffca7a045d780ae58e7a5ef504
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13030;
+first channel - ADSB-56
+01:32:29;  level  -82; SNR  14.041199826559248;
+8101ffff32e708050c0d90beef00237a0b5d780ae58e7a5ef632
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13031;
+first channel - ADSB-56
+01:32:29;  level  -82; SNR  22.827853703164504;
+8102ffff32e808050c190521d8fff779042b9664372e29e00c050c1904db8bfff2790b8d780ae5990dcb8a78048cf53a84eb70
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  13032;
+first channel - ADSB-56
+01:32:29;  level  -81; SNR  14.041199826559248;
+first channel - ADSB-112
+01:32:29;  level  -81; SNR  22.827853703164504;
+8d780ae5990dcb8a78048cf53a84
+tc=  19
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32e90c050c219b7adefffd7b0b8d780ae5ea466858013c08177c56f2a0
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13033;
+first channel - ADSB-112
+01:32:29;  level  -83; SNR  22.827853703164504;
+8d780ae5ea466858013c08177c56
+tc=  29
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32ea0c050c39ab1f8800037a068d780ae558b98198d8512d8d82f4f2c2
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13034;
+first channel - ADSB-112
+01:32:30;  level  -82; SNR  17.563025007672874;
+8d780ae558b98198d8512d8d82f4
+tc=  11
+CPR even (0)
+ICAOaddress   780ae5
+8102ffff32eb08050c463a8b6dfff97e042000163faf0f290c050c4746f0c2ffb07f058d151d5690b3f22e7e3b505de3ebebc0
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  13035;
+first channel - ADSB-56
+01:32:30;  level  -86; SNR  14.041199826559248;
+first channel - ADSB-112
+01:32:30;  level  -87; SNR  15.979400086720377;
+8d151d5690b3f22e7e3b505de3eb
+tc=  18
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32ec0c050c4a15e893ffac7e05a004163fc4600070a20000624f0ef44f
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13036;
+first channel - ADSB-112
+01:32:30;  level  -86; SNR  15.979400086720377;
+not df17
+8101ffff32ed08050c528242ea00067d072800163faf0b39f84e
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13037;
+first channel - ADSB-56
+01:32:30;  level  -85; SNR  18.901960800285135;
+8101ffff32ee08050c57e25c37ffc37e032000163fae0f29f6dd
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13038;
+first channel - ADSB-56
+01:32:30;  level  -86; SNR  11.542425094393248;
+8101ffff32ef08050c5a16f02e000a7f032000163faf0f29f8d0
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13039;
+first channel - ADSB-56
+01:32:30;  level  -87; SNR  11.542425094393248;
+8101ffff32f00c050c7444533dffc77c068d780ae558b98198c85100aebb07f20a
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13040;
+first channel - ADSB-112
+01:32:31;  level  -84; SNR  17.563025007672874;
+8d780ae558b98198c85100aebb07
+tc=  11
+CPR even (0)
+ICAOaddress   780ae5
+8104ffff32f10c050c764959db00337a05a0001718d80a2b347ff4004a8f8b0c050c765cda1b005f7b06a0001718c6500030a400007877c30c050c773d7e5200167b09a0001718c6500030a400007877c30c050c7750fe5efff37c06a0001718801b8d3a4004ed1a417fddec
+=======================================================
+CountOfMess  4; number of receiver  65535; NumOfPack  13041;
+first channel - ADSB-112
+01:32:31;  level  -82; SNR  15.979400086720377;
+not df17
+first channel - ADSB-112
+01:32:31;  level  -83; SNR  17.563025007672874;
+not df17
+first channel - ADSB-112
+01:32:31;  level  -83; SNR  21.084850188786497;
+not df17
+first channel - ADSB-112
+01:32:31;  level  -84; SNR  17.563025007672874;
+not df17
+8104ffff32f20c050c79b3598000177b05a0001718d80a2f347ff4004a8f9f0c050c7a6a749600117b08a0001718801b8d3a4004ed1a417f0c050c7b0e0fd100107c08a0001718801b8d3a4004ed1a417f0c050c7b21902a00347a0aa0001718d80a2f347ff4004a8f9be04a
+=======================================================
+CountOfMess  4; number of receiver  65535; NumOfPack  13042;
+first channel - ADSB-112
+01:32:31;  level  -83; SNR  15.979400086720377;
+not df17
+first channel - ADSB-112
+01:32:31;  level  -83; SNR  20.06179973983887;
+not df17
+first channel - ADSB-112
+01:32:31;  level  -84; SNR  20.06179973983887;
+not df17
+first channel - ADSB-112
+01:32:31;  level  -82; SNR  22.0;
+not df17
+8101ffff32f308050c8392fbbffff77b085d780ae58e7a5ef3d0
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13043;
+first channel - ADSB-56
+01:32:31;  level  -83; SNR  20.06179973983887;
+8101ffff32f408050c8571a8b2fffb7b075d780ae58e7a5ef44b
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13044;
+first channel - ADSB-56
+01:32:31;  level  -83; SNR  18.901960800285135;
+8101ffff32f508050c8afd898a00227b075d780ae58e7a5ef5d8
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13045;
+first channel - ADSB-56
+01:32:31;  level  -83; SNR  18.901960800285135;
+8102ffff32f60c050cc341ceb400137b098d151d5690b3f58bc3f9c8e9323d0c050cc3485e63003f7e038d151d569901b10ee004005ac0e5e96f
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  13046;
+first channel - ADSB-112
+01:32:32;  level  -83; SNR  21.084850188786497;
+8d151d5690b3f58bc3f9c8e9323d
+tc=  18
+CPR odd (1)
+ICAOaddress   151d56
+first channel - ADSB-112
+01:32:32;  level  -86; SNR  11.542425094393248;
+8d151d569901b10ee004005ac0e5
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32f708050cd60e4e0bffff7e045d151d5626ee52f636
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13047;
+first channel - ADSB-56
+01:32:32;  level  -86; SNR  14.041199826559248;
+8101ffff32f80c050ce2408650fff27d048d151d5690b3f22eba3bc00da808f1e5
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13048;
+first channel - ADSB-112
+01:32:32;  level  -85; SNR  14.041199826559248;
+8d151d5690b3f22eba3bc00da808
+tc=  18
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32f908050cf83771d700257c075d780ae58e7a5ef5f3
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13049;
+first channel - ADSB-56
+01:32:33;  level  -84; SNR  18.901960800285135;
+8101ffff32fa08050d080bbfde001c7c060000171832048ef8f9
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13050;
+first channel - ADSB-56
+01:32:33;  level  -84; SNR  17.563025007672874;
+8101ffff32fb08050d09ff60fe000d7f025d151d5626ee52f6fa
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13051;
+first channel - ADSB-56
+01:32:33;  level  -87; SNR  8.020599913279625;
+8101ffff32fc0c050d0e429103003a7e048d780ae5e1011100000000e0943af5ff
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13052;
+first channel - ADSB-112
+01:32:33;  level  -86; SNR  14.041199826559248;
+8d780ae5e1011100000000e0943a
+tc=  28
+CPR even (0)
+ICAOaddress   780ae5
+8101ffff32fd08050d32be05cd00347d055d780ae58e7a5ef695
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13053;
+first channel - ADSB-56
+01:32:34;  level  -85; SNR  15.979400086720377;
+8101ffff32fe0c050d36eb0e01ff507d058d151d569901b10ee004005ac0e5f3e0
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13054;
+first channel - ADSB-112
+01:32:34;  level  -85; SNR  15.979400086720377;
+8d151d569901b10ee004005ac0e5
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff32ff08050d3bf5eddc002a7d055d780ae58e7a5ef566
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13055; 
+first channel - ADSB-56
+01:32:34;  level  -85; SNR  15.979400086720377;
+8101ffff33000c050da428544b00067b0880e1971858b884f80a0f98949bd5f3ea
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13056;
+first channel - ADSB-112
+01:32:36;  level  -83; SNR  20.06179973983887;
+not df17
+8101ffff33010c050da76325ba00067d048d780ae558b984f80a0f986a1702f509
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13057;
+first channel - ADSB-112
+01:32:36;  level  -85; SNR  14.041199826559248;
+8d780ae558b984f80a0f986a1702
+tc=  11
+CPR odd (1)
+ICAOaddress   780ae5
+8102ffff330208050dac2024d6ffe47c065d780ae58e7a5e08050dac2b4e2f007880035d151d5626ee52f127
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  13058;
+first channel - ADSB-56
+01:32:36;  level  -84; SNR  17.563025007672874;
+first channel - ADSB-56
+01:32:36;  level  -88; SNR  11.542425094393248;
+8101ffff330308050db0f39f26fff67d035d780ae58e7a5ef529
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13059;
+first channel - ADSB-56
+01:32:36;  level  -85; SNR  11.542425094393248;
+8101ffff330408050dba9d0a1000687c075d780ae58e7a5ef7a9
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13060;
+first channel - ADSB-56
+01:32:36;  level  -84; SNR  18.901960800285135;
+8101ffff330508050dc1127d4700267d045d780ae58e7a5ef7c6
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13061;
+first channel - ADSB-56
+01:32:36;  level  -85; SNR  14.041199826559248;
+8102ffff330608050dfde6a371fff27c045d780ae58e7a5e0c050dff32576ffffb7f028d151d569901b10ee804003462edeb2d
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  13062;
+first channel - ADSB-56
+01:32:37;  level  -84; SNR  14.041199826559248;
+first channel - ADSB-112
+01:32:37;  level  -87; SNR  8.020599913279625;
+8d151d569901b10ee804003462ed
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff33070c050e1a50528d00367f058d151d569901b10ec80400711ec4f697
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13063;
+first channel - ADSB-112
+01:32:38;  level  -87; SNR  15.979400086720377;
+8d151d569901b10ec80400711ec4
+tc=  19
+CPR even (0)
+ICAOaddress   151d56
+8101ffff330808050e609409020000820220209690166811f9b2
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13064;
+first channel - ADSB-56
+01:32:39;  level  -90; SNR  8.020599913279625;
+8101ffff330908050f4e8047f800508003240016bfae0f29f869
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13065;
+first channel - ADSB-56
+01:32:43;  level  -88; SNR  11.542425094393248;
+8101ffff330a08051071bfabc6005180052000163fad0f2df851
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13066;
+first channel - ADSB-56
+01:32:48;  level  -88; SNR  15.979400086720377;
+8101ffff330b0805107b35f36600457f032000363faf0f28f8da
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13067;
+first channel - ADSB-56
+01:32:48;  level  -87; SNR  11.542425094393248;
+8102ffff330c0805108324b880ffc47e032000563faf0f29080510846c1ccc000c7f045d151d5626ee52f295
+=======================================================
+CountOfMess  2; number of receiver  65535; NumOfPack  13068;
+first channel - ADSB-56
+01:32:48;  level  -86; SNR  11.542425094393248;
+first channel - ADSB-56
+01:32:48;  level  -87; SNR  14.041199826559248;
+8101ffff330d0c051857ea94e600108002a00056909619f52e600c057af254f441
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13069;
+first channel - ADSB-112
+01:33:22;  level  -88; SNR  8.020599913279625;
+not df17
+8101ffff330e0c05185bbb274e00328004a2101690c4e80434aa00005bf0c2f4e2
+=======================================================
+CountOfMess  1; number of receiver  65535; NumOfPack  13070;
+first channel - ADSB-112
+01:33:22;  level  -88; SNR  14.041199826559248;
+not df17

@@ -31,7 +31,7 @@ while True:
         for i_mess in range(0,count_of_mess):
             info_of_ch = myFunc.byteToTypeAndNumberOfChannel(data[init_mess])
             print(info_of_ch)
-            myByte = copy.deepcopy(data[init_mess])
+            myByte = copy.copy(data[init_mess])
             myByte = myByte>>2
             if (myByte ^ 0b000001) == 0b000000: #A/C сообщение
                 time_in_nanosec = int(data[(init_mess+1):(init_mess+7)].hex(),16)
@@ -62,7 +62,7 @@ while True:
                         print(adsb_112_Data.hex())
                         ME_in_bytes = adsb_112_Data[4:11]
                         #print(ME_in_bytes.hex())
-                        mB1 =  copy.deepcopy(ME_in_bytes[0])
+                        mB1 =  copy.copy(ME_in_bytes[0])
                         print ('tc=  '+str(int(hex((mB1>>3)),16)))
                         if ((ME_in_bytes[2] | 0b11111011) ^ 0b11111111) == 0b00000000: #смотрим 6-ой бит в третьем байте MESSAGE
                             print ("CPR odd (1)")
@@ -99,5 +99,5 @@ while True:
         #     else:
         #         print('not df17')
         
-        if numOf112 >10:
+        if numOf112 >100:
             break
