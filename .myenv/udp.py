@@ -99,5 +99,5 @@ while True:
         #     else:
         #         print('not df17')
         
-        if numOf112 >20:
+        if numOf112 >10:
             break
