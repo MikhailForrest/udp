@@ -11,6 +11,9 @@ UDP_PORT = 49002
 sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 sock.bind((UDP_IP,UDP_PORT))
 
+print(myFunc.TC11Message(bytes([0x58,0x1B,0x66,0xE9,0xBD,0x8C,0xEE]))) #odd; CPR latitude  : 95454; CPR longitude : 101614; ICAO 7C1BE8; tc = 11
+
+
 numOf112 = 0 # счетчик для количества 112 битных пакетов
 while True:
     data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes

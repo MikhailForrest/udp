@@ -34,3 +34,11 @@ def byteToTypeAndNumberOfChannel(data: bytes) -> str:
         return 'Forth channel - ADSB-56'
     elif (dt ^ 0b00000111)==0b00000000:
         return 'Forth channel - A/C'
+    
+
+def TC11Message(message):
+    if ((message[2] | 0b11111011) ^ 0b11111111) == 0b00000000: #смотрим 6-ой бит в третьем байте MESSAGE
+        print ("CPR odd (1)")
+    else:
+        print ("CPR even (0)") 
+    return (message)
