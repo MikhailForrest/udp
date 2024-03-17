@@ -41,4 +41,10 @@ def TC11Message(message):
         print ("CPR odd (1)")
     else:
         print ("CPR even (0)") 
+
+    lon_cpr = bytearray(3)
+    print (lon_cpr)
+    print (lon_cpr[1])
+    print (message[5])
+    lon_cpr[1] = 100
     return (message)
