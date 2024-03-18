@@ -42,9 +42,10 @@ def TC11Message(message):
     else:
         print ("CPR even (0)") 
 
-    lon_cpr = bytearray(3)
-    print (lon_cpr)
-    print (lon_cpr[1])
-    print (message[5])
-    lon_cpr[1] = 100
-    return (message)
+    lon_cpr_Bytes = bytearray(3)
+    #lon_cpr_Bytes[0:1] = copy.deepcopy(message[4:5])
+    lon_cpr_Bytes[0] = (message[4]&0b00000001)
+    lon_cpr_Bytes[1:2] = message[5:6]
+    lon_cpr_Bytes[2:3] = message[6:7]
+    lon_cpr = int.from_bytes(lon_cpr_Bytes,'big')
+    return (lon_cpr)
