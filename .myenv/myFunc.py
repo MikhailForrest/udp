@@ -53,4 +53,6 @@ def TC11Message(message):
     lon_cpr_Bytes[1:2] = message[5:6]
     lon_cpr_Bytes[2:3] = message[6:7]
     lon_cpr = int.from_bytes(lon_cpr_Bytes,'big')
-    return (lat_cpr)
+
+    
+    return (lat_cpr,lon_cpr)
