@@ -1,6 +1,7 @@
 import copy
+from math import floor 
 
-
+NZ = 15 #represents the number of latitude zones between the equator and a pole. In Mode S, is defined to be 15.
 
 # 7 байт тип сообщения -> первые шесть бит: тип АДСБ, два последних: номер канала
 # потом перенести в отжельную функцию
@@ -36,7 +37,7 @@ def byteToTypeAndNumberOfChannel(data: bytes) -> str:
         return 'Forth channel - A/C'
     
 
-def TC11Message(message):
+def TC11Message(message):  # для кода типа 11 (и других кодов местоположения) Doc 9871 (page A.2.3.1) TC- type code in DF17,18
     if ((message[2] | 0b11111011) ^ 0b11111111) == 0b00000000: #смотрим 6-ой бит в третьем байте MESSAGE
         print ("CPR odd (1)")
     else:
@@ -55,4 +56,5 @@ def TC11Message(message):
     lon_cpr = int.from_bytes(lon_cpr_Bytes,'big')
 
     
+    floor() 
     return (lat_cpr,lon_cpr)
