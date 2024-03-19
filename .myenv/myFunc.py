@@ -40,21 +40,30 @@ def byteToTypeAndNumberOfChannel(data: bytes) -> str:
 def TC11Message(message):  # для кода типа 11 (и других кодов местоположения) Doc 9871 (page A.2.3.1) TC- type code in DF17,18
     if ((message[2] | 0b11111011) ^ 0b11111111) == 0b00000000: #смотрим 6-ой бит в третьем байте MESSAGE
         print ("CPR odd (1)")
+        f_cpr = 1
     else:
         print ("CPR even (0)") 
+        f_cpr = 0
     
-    lat_cpr_Bytes = bytearray(3)
-    lat_cpr_Bytes[0] = (message[2]&0b00000011)
-    lat_cpr_Bytes[1:2] = message[3:4]
-    lat_cpr_Bytes[2:3] = message[4:5]
-    lat_cpr = int.from_bytes(lat_cpr_Bytes,'big')>>1
+    n_lat_cpr_Bytes = bytearray(3)
+    n_lat_cpr_Bytes[0] = (message[2]&0b00000011)
+    n_lat_cpr_Bytes[1:2] = message[3:4]
+    n_lat_cpr_Bytes[2:3] = message[4:5]
+    n_lat_cpr = int.from_bytes(n_lat_cpr_Bytes,'big')>>1
 
-    lon_cpr_Bytes = bytearray(3)
-    lon_cpr_Bytes[0] = (message[4]&0b00000001)
-    lon_cpr_Bytes[1:2] = message[5:6]
-    lon_cpr_Bytes[2:3] = message[6:7]
-    lon_cpr = int.from_bytes(lon_cpr_Bytes,'big')
+    n_lon_cpr_Bytes = bytearray(3)
+    n_lon_cpr_Bytes[0] = (message[4]&0b00000001)
+    n_lon_cpr_Bytes[1:2] = message[5:6]
+    n_lon_cpr_Bytes[2:3] = message[6:7]
+    n_lon_cpr = int.from_bytes(n_lon_cpr_Bytes,'big')
 
-    
-    floor() 
+    lat_cpr = n_lat_cpr/(2**17)
+    lon_cpr = n_lon_cpr/(2**17)
+    if  f_cpr == 0:
+        dlat = 360/(4*NZ)
+    else: 
+        dlat = 360/(4*NZ-1)
+
+
+    #floor() 
     return (lat_cpr,lon_cpr)
