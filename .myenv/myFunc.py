@@ -66,4 +66,4 @@ def TC11Message(message):  # для кода типа 11 (и других код
 
 
     #floor() 
-    return (lat_cpr,lon_cpr)
+    return {'n_lat_cp': n_lat_cpr, 'n_lon_cpr': n_lon_cpr, 'lat_cpr':lat_cpr,'lon_cpr':lon_cpr,'dlat':dlat,'format':f_cpr}
