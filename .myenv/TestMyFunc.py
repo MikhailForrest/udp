@@ -1,7 +1,7 @@
 import unittest
 import myFunc
 
-class TestMyFunc(unittest.TestCase):
+class TestMyFunc(unittest.TestCase): # py testmyfunc.py -v
     def test_byteToTypeAndNumberOfChannel(self):
         self.assertEqual(myFunc.byteToTypeAndNumberOfChannel(0b00000100),'first channel - A/C')
 
