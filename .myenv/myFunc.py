@@ -1,5 +1,5 @@
 import copy
-from math import floor 
+from math import floor, fmod 
 
 NZ = 15 #represents the number of latitude zones between the equator and a pole. In Mode S, is defined to be 15.
 
@@ -64,8 +64,20 @@ def TC11Message(message):  # для кода типа 11 (и других код
     #floor() 
     return {'n_lat_cpr': n_lat_cpr, 'n_lon_cpr': n_lon_cpr, 'lat_cpr':lat_cpr,'lon_cpr':lon_cpr,'dlat':dlat,'format':f_cpr}
 
-def pairOfMessages(message1,message2): # для вычисления координат
+def pairOfMessages(message1,message2): # для вычисления координат # https://mode-s.org/decode/content/ads-b/3-airborne-position.html
     msg1 = TC11Message(message1)
     msg2 = TC11Message(message2)
+    if (msg1['format'] == 0) and (msg2['format'] == 1):
+        index_j = floor(59*msg1['lat_cpr']-60*msg2['lat_cpr']+0.5)
+        lat_even = msg1['dlat']*(fmod(index_j,60)+msg1['lat_cpr'])
+        lat_odd =  msg2['dlat']*(fmod(index_j,59)+msg2['lat_cpr'])
+        if lat_even>=270:
+            lat_even-=360
+        if lat_odd>=270:
+            lat_odd-=360
 
-    return (msg1['n_lat_cpr'],msg1['n_lon_cpr'],msg2['n_lat_cpr'],msg2['n_lon_cpr'])
+            
+        print (lat_even)
+        print (lat_odd)
+
+    return (msg1['n_lat_cpr'],msg1['n_lon_cpr'],msg2['n_lat_cpr'],msg2['n_lon_cpr']) 
