@@ -13,6 +13,7 @@ sock.bind((UDP_IP,UDP_PORT))
 
 print(myFunc.TC11Message(bytes([0x58,0x1B,0x66,0xE9,0xBD,0x8C,0xEE]))['n_lat_cpr']) #odd; CPR latitude  : 95454; CPR longitude : 101614; 
                                                                                     #ICAO 7C1BE8; tc = 11
+print(myFunc.pairOfMessages(bytes([0x58,0x1B,0x66,0xE9,0xBD,0x8C,0xEE]),bytes([0x58,0x1B,0x66,0xE9,0xBD,0x8C,0xEE])))
 
 
 numOf112 = 0 # счетчик для количества 112 битных пакетов

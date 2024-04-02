@@ -39,10 +39,8 @@ def byteToTypeAndNumberOfChannel(data: bytes) -> str:
 
 def TC11Message(message):  # для кода типа 11 (и других кодов местоположения) Doc 9871 (page A.2.3.1) TC- type code in DF17,18
     if ((message[2] | 0b11111011) ^ 0b11111111) == 0b00000000: #смотрим 6-ой бит в третьем байте MESSAGE
-        print ("CPR odd (1)")
         f_cpr = 1
     else:
-        print ("CPR even (0)") 
         f_cpr = 0
     
     n_lat_cpr_Bytes = bytearray(3)
@@ -63,7 +61,11 @@ def TC11Message(message):  # для кода типа 11 (и других код
         dlat = 360/(4*NZ)
     else: 
         dlat = 360/(4*NZ-1)
-
-
     #floor() 
     return {'n_lat_cpr': n_lat_cpr, 'n_lon_cpr': n_lon_cpr, 'lat_cpr':lat_cpr,'lon_cpr':lon_cpr,'dlat':dlat,'format':f_cpr}
+
+def pairOfMessages(message1,message2): # для вычисления координат
+    msg1 = TC11Message(message1)
+    msg2 = TC11Message(message2)
+
+    return (msg1['n_lat_cpr'],msg1['n_lon_cpr'],msg2['n_lat_cpr'],msg2['n_lon_cpr'])
