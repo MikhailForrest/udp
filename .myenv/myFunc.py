@@ -106,4 +106,4 @@ def pairOfMessages(message1,time1, message2, time2): # для вычислени
             if longitude>180:
                 longitude -=360
 
-    return (latitude, longitude) 
+    return (round(latitude,5), round(longitude,5)) 
