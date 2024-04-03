@@ -1,5 +1,6 @@
 import copy
 from math import floor, fmod 
+import math
 
 NZ = 15 #represents the number of latitude zones between the equator and a pole. In Mode S, is defined to be 15.
 
@@ -69,14 +70,19 @@ def pairOfMessages(message1,message2): # для вычисления коорд�
     msg2 = TC11Message(message2)
     if (msg1['format'] == 0) and (msg2['format'] == 1):
         index_j = floor(59*msg1['lat_cpr']-60*msg2['lat_cpr']+0.5)
-        lat_even = msg1['dlat']*(fmod(index_j,60)+msg1['lat_cpr'])
-        lat_odd =  msg2['dlat']*(fmod(index_j,59)+msg2['lat_cpr'])
+        lat_even = msg1['dlat']*(fmod(index_j,60)+msg1['lat_cpr']) # в градусах
+        lat_odd =  msg2['dlat']*(fmod(index_j,59)+msg2['lat_cpr']) # в градусах
         if lat_even>=270:
             lat_even-=360
         if lat_odd>=270:
             lat_odd-=360
+        # далее номер зоны по долготе
+        NL_even = floor(2*math.pi/(math.acos(1-(1-math.cos(math.pi/(2*NZ)))/((math.cos(math.pi*lat_even/180))**2))))
+        NL_odd = floor(2*math.pi/(math.acos(1-(1-math.cos(math.pi/(2*NZ)))/((math.cos(math.pi*lat_odd/180))**2))))
+        if NL_even==NL_odd: #находятся в одинаковых долготных зонах -> можно дальше вычислять
+            pass
 
-            
+
         print (lat_even)
         print (lat_odd)
 
