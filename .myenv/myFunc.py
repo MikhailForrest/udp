@@ -65,10 +65,11 @@ def TC11Message(message):  # для кода типа 11 (и других код
     #floor() 
     return {'n_lat_cpr': n_lat_cpr, 'n_lon_cpr': n_lon_cpr, 'lat_cpr':lat_cpr,'lon_cpr':lon_cpr,'dlat':dlat,'format':f_cpr}
 
-def pairOfMessages(message1,message2): # для вычисления координат # https://mode-s.org/decode/content/ads-b/3-airborne-position.html
+def pairOfMessages(message1,time1, message2, time2): # для вычисления координат # https://mode-s.org/decode/content/ads-b/3-airborne-position.html
     msg1 = TC11Message(message1)
     msg2 = TC11Message(message2)
-    if (msg1['format'] == 0) and (msg2['format'] == 1):
+    latitude = -91
+    if (msg1['format'] == 0) and (msg2['format'] == 1): #здесь только если первое четное - >  надо написать обратное!!!!
         index_j = floor(59*msg1['lat_cpr']-60*msg2['lat_cpr']+0.5)
         lat_even = msg1['dlat']*(fmod(index_j,60)+msg1['lat_cpr']) # в градусах
         lat_odd =  msg2['dlat']*(fmod(index_j,59)+msg2['lat_cpr']) # в градусах
@@ -79,11 +80,18 @@ def pairOfMessages(message1,message2): # для вычисления коорд�
         # далее номер зоны по долготе
         NL_even = floor(2*math.pi/(math.acos(1-(1-math.cos(math.pi/(2*NZ)))/((math.cos(math.pi*lat_even/180))**2))))
         NL_odd = floor(2*math.pi/(math.acos(1-(1-math.cos(math.pi/(2*NZ)))/((math.cos(math.pi*lat_odd/180))**2))))
+        longitude = -361
         if NL_even==NL_odd: #находятся в одинаковых долготных зонах -> можно дальше вычислять
-            pass
-
+            if time1>time2:
+                latitude = lat_even
+            else:
+                latitude = lat_odd
+            #вычисляем индекс долготы
+            index_m = floor(msg1['lon_cpr']*(NL_even-1)-msg2['lon_cpr']*NL_even+0.5)
+            n_even = max(NL_even , 1)
+            n_odd = max(NL_odd-1 , 1)
 
         print (lat_even)
         print (lat_odd)
 
-    return (msg1['n_lat_cpr'],msg1['n_lon_cpr'],msg2['n_lat_cpr'],msg2['n_lon_cpr']) 
+    return (latitude) 
