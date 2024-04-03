@@ -43,6 +43,11 @@ def TC11Message(message):  # для кода типа 11 (и других код
         f_cpr = 1
     else:
         f_cpr = 0
+
+    if ((message[2] | 0b11110111) ^ 0b11111111) == 0b00000000: #смотрим 5-ый бит в третьем байте MESSAGE
+        timeT = 1
+    else:
+        timeT = 0
     
     n_lat_cpr_Bytes = bytearray(3)
     n_lat_cpr_Bytes[0] = (message[2]&0b00000011)
@@ -63,7 +68,7 @@ def TC11Message(message):  # для кода типа 11 (и других код
     else: 
         dlat = 360/(4*NZ-1)
     #floor() 
-    return {'n_lat_cpr': n_lat_cpr, 'n_lon_cpr': n_lon_cpr, 'lat_cpr':lat_cpr,'lon_cpr':lon_cpr,'dlat':dlat,'format':f_cpr}
+    return {'n_lat_cpr': n_lat_cpr, 'n_lon_cpr': n_lon_cpr, 'lat_cpr':lat_cpr,'lon_cpr':lon_cpr,'dlat':dlat,'format':f_cpr, 'time': timeT}
 
 def pairOfMessages(message1,time1, message2, time2): # для вычисления координат # https://mode-s.org/decode/content/ads-b/3-airborne-position.html
     msg1 = TC11Message(message1)
@@ -90,8 +95,15 @@ def pairOfMessages(message1,time1, message2, time2): # для вычислени
             index_m = floor(msg1['lon_cpr']*(NL_even-1)-msg2['lon_cpr']*NL_even+0.5)
             n_even = max(NL_even , 1)
             n_odd = max(NL_odd-1 , 1)
+            dlon_even = 360/n_even
+            dlon_odd = 360/n_odd
+            lon_even = dlon_even*((index_m % n_even) +msg1['lon_cpr'])
+            lon_odd = dlon_odd*((index_m % n_odd) +msg2['lon_cpr'])
+            if time1>=time2:
+                longitude = lon_even
+            else: 
+                longitude = lon_odd
+            if longitude>180:
+                longitude -=360
 
-        print (lat_even)
-        print (lat_odd)
-
-    return (latitude) 
+    return (latitude, longitude) 
